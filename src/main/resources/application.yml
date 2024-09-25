@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: uniclub06
+  datasource:
+    url: jdbc:mysql://localhost:3307/uniclub
+    username: root
+    password: admin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+#quy định file size cho upload
+jwts:
+  key: REFLP1wwS03zYvwkhKWPhu8oAj6vEgAezAHVNtd9xog=
+
+root:
+  path: C:/Users/ACER/Desktop/uploads
+
+redis:
+  host: localhost
+  port: 6380
